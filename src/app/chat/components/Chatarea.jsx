@@ -357,7 +357,7 @@ const ChatArea = ({ systemInstruction, userName, roomId }) => {
   useEffect(() => {
     if (genAI && !chat) {
       const model = genAI.getGenerativeModel({ 
-        model: "gemini-1.5-flash",
+        model: "gemini-2.5-flash",
         systemInstruction: systemInstruction
       });
       setChat(model.startChat({

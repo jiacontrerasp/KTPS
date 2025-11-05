@@ -5,7 +5,7 @@ const nextConfig = {
     reactStrictMode: true,
     images: {
       domains: ['i.imgur.com','virtual.konradlorenz.edu.co'],
-      unoptimized: true  // Esto puede ayudar con problemas de imágenes en producción
+      //unoptimized: true  // Esto puede ayudar con problemas de imágenes en producción
 
     },
     
